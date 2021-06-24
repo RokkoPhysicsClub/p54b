@@ -21,11 +21,11 @@ size(x,y);
 ちなみに
 - 3Dの描画も可能
 
+![coordinate](../img/image14.png)
+
 ##2-2.具体例
 
 ```java
-line(x,y,dx,dy);
+point(x,y,dx,dy);
 ```
-
-これで線を引くことができる。
-
+これで点を表せます

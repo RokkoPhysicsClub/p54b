@@ -6,4 +6,4 @@
 
 所要時間：40分
 
-![top](./img/image1.gif)
+![top](../img/image1.gif)
