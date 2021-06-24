@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>図形の描画 · p54b-2021</title>
+        <title>初めに知っておきたい事 · p54b-2021</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.20">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="basic_programming.html" />
+    <link rel="next" href="basic_shape.html" />
     
     
-    <link rel="prev" href="hello_processing.html" />
+    <link rel="prev" href="examples.html" />
     
 
     </head>
@@ -141,7 +141,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="hello_processing.html">
+        <li class="chapter active" data-level="1.2.3" data-path="hello_processing.html">
             
                 <a href="hello_processing.html">
             
@@ -154,7 +154,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.4" data-path="basic_shape.html">
+        <li class="chapter " data-level="1.2.4" data-path="basic_shape.html">
             
                 <a href="basic_shape.html">
             
@@ -228,7 +228,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >図形の描画</a>
+        <a href=".." >初めに知っておきたい事</a>
     </h1>
 </div>
 
@@ -243,35 +243,34 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="図形の描画">図形の描画</h1>
-<h2 id="四角を描く">四角を描く</h2>
-<pre><code class="lang-java">rect(x, y, w, h);
-</code></pre>
-<p><img src="../img/square.png" alt="square"></p>
+                                <h1 id="初めに知っておきたい事">初めに知っておきたい事</h1>
+<p>processingを始める際に知っておきたい事</p>
 <ul>
-<li>x：x座標</li>
-<li>y：y座標</li>
-<li>w：横幅</li>
-<li>h：高さ</li>
+<li>画面の大きさの設定</li>
+<li>座標系</li>
 </ul>
-<h2 id="円を描く">円を描く</h2>
-<pre><code class="lang-java">ellipse(x,y,w,h);
+<h2 id="1画面の大きさ">1.画面の大きさ</h2>
+<pre><code class="lang-java">size(x,y);
 </code></pre>
-<p>ellipseの場合、</p>
 <ul>
-<li>w:横方向の直経</li>
-<li>h:縦方向の直径
-を表す。</li>
+<li>x：x座標(横幅)</li>
+<li>y：y座標(高さ)</li>
 </ul>
-<h2 id="三角形を描く">三角形を描く</h2>
-<pre><code class="lang-java">triangle(x1,y1,x2,y2,x3,y3);
+<h2 id="2-1座標系">2-1.座標系</h2>
+<p>知っておきたい点として</p>
+<ul>
+<li>基本的に2D。xが横、yが縦を表す</li>
+<li>画面左上が原点(0,0)</li>
+</ul>
+<p>ちなみに</p>
+<ul>
+<li>3Dの描画も可能</li>
+</ul>
+<p><img src="../img/image14.png" alt="coordinate"></p>
+<h2 id="2-2具体例">2-2.具体例</h2>
+<pre><code class="lang-java">point(x,y,dx,dy);
 </code></pre>
-<h3 id="サンプル">サンプル</h3>
-<pre><code class="lang-java">size(<span class="hljs-number">400</span>, <span class="hljs-number">400</span>);
-triangle(<span class="hljs-number">200</span>, <span class="hljs-number">20</span>, <span class="hljs-number">40</span>, <span class="hljs-number">300</span>, <span class="hljs-number">300</span>, <span class="hljs-number">350</span>);
-</code></pre>
-<p><img src="../img/triangle.png" alt="triangle"></p>
-<p>基本はこの三つです</p>
+<p>これで点を表せます</p>
 
                                 
                                 </section>
@@ -299,12 +298,12 @@ triangle(<span class="hljs-number">200</span>, <span class="hljs-number">20</spa
 
             
                 
-                <a href="hello_processing.html" class="navigation navigation-prev " aria-label="Previous page: 初めに知っておきたい事">
+                <a href="examples.html" class="navigation navigation-prev " aria-label="Previous page: 作品例">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="basic_programming.html" class="navigation navigation-next " aria-label="Next page: プログラミングの基礎">
+                <a href="basic_shape.html" class="navigation navigation-next " aria-label="Next page: 図形の描画">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -315,7 +314,7 @@ triangle(<span class="hljs-number">200</span>, <span class="hljs-number">20</spa
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"図形の描画","level":"1.2.4","depth":2,"next":{"title":"プログラミングの基礎","level":"1.2.5","depth":2,"path":"chap01/basic_programming.md","ref":"chap01/basic_programming.md","articles":[]},"previous":{"title":"初めに知っておきたい事","level":"1.2.3","depth":2,"path":"chap01/hello_processing.md","ref":"chap01/hello_processing.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"k-fog","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"p54b-2021","gitbook":"*"},"file":{"path":"chap01/basic_shape.md","mtime":"2021-06-24T05:10:37.879Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-24T05:13:41.811Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"初めに知っておきたい事","level":"1.2.3","depth":2,"next":{"title":"図形の描画","level":"1.2.4","depth":2,"path":"chap01/basic_shape.md","ref":"chap01/basic_shape.md","articles":[]},"previous":{"title":"作品例","level":"1.2.2","depth":2,"path":"chap01/examples.md","ref":"chap01/examples.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"k-fog","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"p54b-2021","gitbook":"*"},"file":{"path":"chap01/hello_processing.md","mtime":"2021-06-24T05:03:32.201Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-06-24T05:13:41.811Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
