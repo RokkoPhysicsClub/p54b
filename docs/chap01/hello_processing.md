@@ -20,7 +20,7 @@ size(x,y);
 
 ちなみに
 - 3Dの描画も可能
-
+ｓ
 ![coordinate](../img/image14.png)
 
 ##2-2.具体例
