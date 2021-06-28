@@ -14,19 +14,18 @@ rect(x, y, w, h);
 - h：高さ
 
 ## 円を描く
-```java
-ellipse(x,y,w,h);
 
+```java
+ellipse(x, y, w, h);
 ```
-ellipseの場合、
-- w:横方向の直経
-- h:縦方向の直径
-を表す。
+
+- w：x方向（横）の直経
+- h：y方向（縦）の直径
 
 ## 三角形を描く
-```java
-triangle(x1,y1,x2,y2,x3,y3);
 
+```java
+triangle(x1, y1, x2, y2, x3, y3);
 ```
 
 ### サンプル
@@ -37,7 +36,6 @@ triangle(200, 20, 40, 300, 300, 350);
 ```
 
 
-
 ![triangle](../img/triangle.png)
 
-基本はこの三つです
+基本はこの三つです。
