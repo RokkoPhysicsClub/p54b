@@ -7,5 +7,6 @@
     * [初めに知っておきたい事](chap01/hello_processing.md)
     * [図形の描画](chap01/basic_shape.md)
     * [色をつける](chap01/color.md)
-    * [プログラミングの基礎](chap01/basic_programming.md)
-* [Chapter02](chapter02/README.md)
+    * [四則演算](chap01/arithmetic.md)
+    * [変数](chap01/variable.md)
+* [Chapter02](chap02/README.md)

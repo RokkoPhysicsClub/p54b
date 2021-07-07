@@ -7,7 +7,7 @@ processingを始める際に知っておきたい事
 ## 画面の大きさ
 
 ```java
-size(x,y);
+size(x, y);
 ```
 - x：x座標(横幅)
 - y：y座標(高さ)
