@@ -22,7 +22,7 @@ rect(x, y, w, h);
 - w：横幅
 - h：高さ
 
-![square](../img/square.png)
+![square](../img/chap01/square.png)
 
 
 ## 円を描く
@@ -34,7 +34,7 @@ ellipse(x, y, w, h);
 - w：x方向（横）の直経
 - h：y方向（縦）の直径
 
-![ellipse](../img/ellipse.png)
+![ellipse](../img/chap01/ellipse.png)
 
 
 ## 三角形を描く
@@ -50,7 +50,7 @@ size(400, 400);
 triangle(200, 20, 40, 300, 300, 350);
 ```
 
-![triangle](../img/triangle.png)
+![triangle](../img/chap01/triangle.png)
 
 基本はこの４つ。
 
@@ -58,4 +58,4 @@ triangle(200, 20, 40, 300, 300, 350);
 
 あとに描いた図形が下の図形を上書きする。
 
-![plus_alpha](../img/some_shape.png)
+![plus_alpha](../img/chap01/some_shape.png)

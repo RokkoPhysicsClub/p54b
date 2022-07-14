@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>四則演算 · p54b-2021</title>
+        <title>Chapter03 · p54b-2021</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.7.5">
@@ -56,10 +56,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="variable.html" />
     
-    
-    <link rel="prev" href="color.html" />
+    <link rel="prev" href="../chap02/" />
     
 
     </head>
@@ -101,9 +99,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="./">
+        <li class="chapter " data-level="1.2" data-path="../chap01/">
             
-                <a href="./">
+                <a href="../chap01/">
             
                     
                     Chapter01
@@ -115,9 +113,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.2.1" data-path="what_is_p5.html">
+        <li class="chapter " data-level="1.2.1" data-path="../chap01/what_is_p5.html">
             
-                <a href="what_is_p5.html">
+                <a href="../chap01/what_is_p5.html">
             
                     
                     Processingって何？
@@ -128,9 +126,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.2" data-path="examples.html">
+        <li class="chapter " data-level="1.2.2" data-path="../chap01/examples.html">
             
-                <a href="examples.html">
+                <a href="../chap01/examples.html">
             
                     
                     作品例
@@ -141,9 +139,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.3" data-path="hello_processing.html">
+        <li class="chapter " data-level="1.2.3" data-path="../chap01/hello_processing.html">
             
-                <a href="hello_processing.html">
+                <a href="../chap01/hello_processing.html">
             
                     
                     初めに知っておきたい事
@@ -154,9 +152,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="basic_shape.html">
+        <li class="chapter " data-level="1.2.4" data-path="../chap01/basic_shape.html">
             
-                <a href="basic_shape.html">
+                <a href="../chap01/basic_shape.html">
             
                     
                     図形の描画
@@ -167,9 +165,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="color.html">
+        <li class="chapter " data-level="1.2.5" data-path="../chap01/color.html">
             
-                <a href="color.html">
+                <a href="../chap01/color.html">
             
                     
                     色をつける
@@ -180,9 +178,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.6" data-path="arithmetic.html">
+        <li class="chapter " data-level="1.2.6" data-path="../chap01/arithmetic.html">
             
-                <a href="arithmetic.html">
+                <a href="../chap01/arithmetic.html">
             
                     
                     四則演算
@@ -193,9 +191,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.7" data-path="variable.html">
+        <li class="chapter " data-level="1.2.7" data-path="../chap01/variable.html">
             
-                <a href="variable.html">
+                <a href="../chap01/variable.html">
             
                     
                     変数
@@ -224,9 +222,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.4" data-path="../chap03/">
+        <li class="chapter active" data-level="1.4" data-path="./">
             
-                <a href="../chap03/">
+                <a href="./">
             
                     
                     Chapter03
@@ -267,7 +265,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >四則演算</a>
+        <a href=".." >Chapter03</a>
     </h1>
 </div>
 
@@ -282,38 +280,14 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <p>ここまではパソコンで図形を描くだけだったが、この節からプログラミングっぽくなってくる。</p>
-<h1 id="四則演算">四則演算</h1>
-<p>以下の記号を使うことで、四則演算が出来る。</p>
+                                <h1 id="chapter03">Chapter03</h1>
+<p>目標：</p>
 <ul>
-<li>足し算：+</li>
-<li>引き算：-</li>
-<li>掛け算：*</li>
-<li>割り算：/</li>
+<li>関数を使ってプログラムを構造化する</li>
+<li>簡単なゲームを作ってみる</li>
 </ul>
-<pre><code class="lang-java">println(<span class="hljs-number">20</span> + <span class="hljs-number">10</span>);
-println(<span class="hljs-number">20</span> - <span class="hljs-number">10</span>);
-println(<span class="hljs-number">20</span> * <span class="hljs-number">10</span>);
-println(<span class="hljs-number">20</span> / <span class="hljs-number">10</span>);
-</code></pre>
-<p>出力を確かめてみよう。</p>
-<hr>
-<p><em>コラム</em></p>
-<h3 id="コンソールに出力">コンソールに出力</h3>
-<pre><code class="lang-java">println(<span class="hljs-number">256</span>);
-println(<span class="hljs-string">&quot;Hello World&quot;</span>);
-</code></pre>
-<p>のように書くことでコンソール（画面下の黒い部分）に出力できる。</p>
-<hr>
-<p>以下のプログラムを実行してみると・・・</p>
-<pre><code class="lang-java">println(<span class="hljs-number">5</span> / <span class="hljs-number">2</span>);
-</code></pre>
-<p>5÷2=2.5 となるべきだが、出力は2となる。
-ここでは、整数値同士の計算の答えは整数値（小数点以下切り捨て）となるというふうに覚えておけば良い。
-あとで、変数を学んだときに「型」と計算結果について詳しく紹介する。</p>
-<p>小数の答えがほしいときは、どちらかを小数にすれば良い。</p>
-<pre><code class="lang-java">println(<span class="hljs-number">5.0</span> / <span class="hljs-number">2</span>);
-</code></pre>
+<p>所要時間：60分</p>
+<p><img src="../img/chap03/chap03.gif" alt="top"></p>
 
                                 
                                 </section>
@@ -341,14 +315,10 @@ println(<span class="hljs-string">&quot;Hello World&quot;</span>);
 
             
                 
-                <a href="color.html" class="navigation navigation-prev " aria-label="Previous page: 色をつける">
+                <a href="../chap02/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Chapter02">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="variable.html" class="navigation navigation-next " aria-label="Next page: 変数">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -357,7 +327,7 @@ println(<span class="hljs-string">&quot;Hello World&quot;</span>);
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"四則演算","level":"1.2.6","depth":2,"next":{"title":"変数","level":"1.2.7","depth":2,"path":"chap01/variable.md","ref":"chap01/variable.md","articles":[]},"previous":{"title":"色をつける","level":"1.2.5","depth":2,"path":"chap01/color.md","ref":"chap01/color.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"k-fog","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"p54b-2021","gitbook":"*"},"file":{"path":"chap01/arithmetic.md","mtime":"2022-07-14T04:15:08.789Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2022-07-14T04:34:19.705Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Chapter03","level":"1.4","depth":1,"previous":{"title":"Chapter02","level":"1.3","depth":1,"path":"chap02/README.md","ref":"chap02/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"k-fog","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"p54b-2021","gitbook":"*"},"file":{"path":"chap03/README.md","mtime":"2022-07-14T04:32:55.039Z","type":"markdown"},"gitbook":{"version":"3.7.5","time":"2022-07-14T04:34:19.705Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

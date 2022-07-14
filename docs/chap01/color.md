@@ -5,7 +5,7 @@
 
 色の明度は0～255までの256個の数字で表現。
 
-![color_world](../img/image23.png)
+![color_world](../img/chap01/image23.png)
 （出典：wikipedia）
 
 ---
@@ -14,8 +14,8 @@ _コラム_
 
 ProcessingIDEのメニューバー/ツール/色選択...をクリック。
 
-<img width="300" alt="choose_color" src="../img/image25.png">
-<img width="300" alt="choose_color_tool" src="../img/image24.png">
+<img width="300" alt="choose_color" src="../img/chap01/image25.png">
+<img width="300" alt="choose_color_tool" src="../img/chap01/image24.png">
 
 ---
 
@@ -41,7 +41,7 @@ background(248, 200, 140);    // 背景色
 ellipse(200, 200, 300, 300);  // 円
 ```
 
-![background](../img/background.png)
+![background](../img/chap01/background.png)
 
 ## 図形の色
 
@@ -69,7 +69,7 @@ fill(0, 255, 0);              // 図形の色
 ellipse(200, 200, 300, 300);  // 円
 ```
 
-![fill](../img/fill.png)
+![fill](../img/chap01/fill.png)
 
 ---
 
@@ -82,4 +82,4 @@ fill(255);                    // 図形の色
 rect(180, 180, 40, 40);       // 四角
 ```
 
-![fill](../img/fill2.png)
+![fill](../img/chap01/fill2.png)
