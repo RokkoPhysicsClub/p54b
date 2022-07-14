@@ -6,4 +6,4 @@
 所要時間：40分
 
 できることが広がるので、面白い
-![chap02](../img/chap02.gif)
+![chap02](../img/chap02/chap02.gif)

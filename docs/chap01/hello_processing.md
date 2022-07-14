@@ -22,7 +22,7 @@ size(x, y);
 - 3Dの描画も可能
 
 
-![coordinate](../img/image14.png)
+![coordinate](../img/chap01/image14.png)
 
 ## 点を打つ
 
