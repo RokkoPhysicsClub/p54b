@@ -1,1 +1,1 @@
-https://rokkophysicsclub.github.io/p54b-2021/
+https://rokkophysicsclub.github.io/p54b/

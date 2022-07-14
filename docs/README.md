@@ -1,4 +1,6 @@
-# Introduction
+# 六甲学院物理部新入部員のためのProcessing入門
+
+p54b - processing for beginners
 
 ## この講座の目的
 
