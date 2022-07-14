@@ -10,4 +10,7 @@
     * [四則演算](chap01/arithmetic.md)
     * [変数](chap01/variable.md)
 * [Chapter02](chap02/README.md)
+    * [図形を動かしたい！](chap02/animation.md)
+    * [関数ってなに？](chap02/function.md)
+    * [マウスからの入力](chap02/mouse.md)
 * [Chapter03](chap03/README.md)
